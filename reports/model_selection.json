@@ -1,0 +1,8 @@
+{
+  "best_model_name": "Logistic Regression",
+  "selection_rationale": "Selected 'Logistic Regression' as the optimal model. It achieved the highest composite performance (Macro-F1: 0.9361, High-Risk Recall: 0.9357, Balanced Accuracy: 0.9347). Because the synthetic data generation process follows an underlying generalized linear structure, Logistic Regression provides superior generalization, interpretability, and execution speed without the step-function approximation errors of tree ensembles.",
+  "cv_macro_f1": 0.9361061558723589,
+  "cv_high_risk_recall": 0.9356967491872968,
+  "cv_balanced_accuracy": 0.9346808833027545,
+  "cv_accuracy": 0.9362375000000001
+}

@@ -1,0 +1,70 @@
+{
+  "test_sample_count": 20000,
+  "overall_metrics": {
+    "accuracy": 0.93935,
+    "balanced_accuracy": 0.9378394553067618,
+    "macro_precision": 0.940608232341097,
+    "macro_recall": 0.9378394553067618,
+    "macro_f1": 0.939184912110306,
+    "high_risk_recall": 0.9436
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Safe",
+      "At-Risk",
+      "High-Risk"
+    ],
+    "matrix": [
+      [
+        4632,
+        367,
+        3
+      ],
+      [
+        268,
+        9437,
+        293
+      ],
+      [
+        1,
+        281,
+        4718
+      ]
+    ],
+    "critical_errors_high_risk_as_safe": 1
+  },
+  "classification_report": {
+    "Safe": {
+      "precision": 0.9451132421954703,
+      "recall": 0.9260295881647341,
+      "f1-score": 0.9354740987579522,
+      "support": 5002.0
+    },
+    "At-Risk": {
+      "precision": 0.9357461576598909,
+      "recall": 0.9438887777555511,
+      "f1-score": 0.9397998307025843,
+      "support": 9998.0
+    },
+    "High-Risk": {
+      "precision": 0.9409652971679298,
+      "recall": 0.9436,
+      "f1-score": 0.9422808068703815,
+      "support": 5000.0
+    },
+    "accuracy": 0.93935,
+    "macro avg": {
+      "precision": 0.940608232341097,
+      "recall": 0.9378394553067618,
+      "f1-score": 0.939184912110306,
+      "support": 20000.0
+    },
+    "weighted avg": {
+      "precision": 0.939393650379249,
+      "recall": 0.93935,
+      "f1-score": 0.9393382091851811,
+      "support": 20000.0
+    }
+  },
+  "classification_report_text": "              precision    recall  f1-score   support\n\n        Safe     0.9451    0.9260    0.9355      5002\n     At-Risk     0.9357    0.9439    0.9398      9998\n   High-Risk     0.9410    0.9436    0.9423      5000\n\n    accuracy                         0.9394     20000\n   macro avg     0.9406    0.9378    0.9392     20000\nweighted avg     0.9394    0.9394    0.9393     20000\n"
+}
